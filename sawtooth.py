@@ -25,8 +25,8 @@ for i in range(1, n):
     signal = signal + ((2*A)/(i*np.pi))*np.sin(2*np.pi*i*f*t + ((i+1)%2) * np.pi)
 
 
-plt.title('Amplitude Modulation')
-plt.plot(signal, 'g')
+plt.title('Signal')
+plt.plot(t, signal, 'g')
 plt.ylabel('Amplitude')
 plt.xlabel('time')
 
